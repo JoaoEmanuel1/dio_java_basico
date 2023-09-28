@@ -14,7 +14,7 @@ public class ContaTerminal {
         // Solicitar e ler o número da Agência
         System.out.println("Certo, " + nomeCliente + ". Agora digite o número da Agência.");
         int numeroAgencia = 0;
-        boolean numeroValido = false;
+        boolean numeroValido = false; 
         while (!numeroValido) {
             try {
                 numeroAgencia = Integer.parseInt(scanner.nextLine());
